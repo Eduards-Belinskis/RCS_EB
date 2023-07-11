@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: red;
+}
+
+label{
+    font-weight: 700;
+}
+
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+#logo{
+    height: 100;
+    width: 150;
+}
+
+footer nav{
+    background-color: yellow;
+    
+}
+
+nav{
+
+    
+
+}
