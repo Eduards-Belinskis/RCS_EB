@@ -1,0 +1,8 @@
+const text = "name";
+const age = 31;
+
+console.log("My" + "" + text + "" + "is Eduards and I am" + age + " years old" );
+
+`My name is ${name} and I am ${age} years old`
+
+console.log()

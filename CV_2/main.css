@@ -12,6 +12,17 @@
   transition: 1s opacity;
 }
 
+.container {
+  border: 5px solid whitesmoke;
+}
+
+main .picture-wrapper {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  border-radius: 5px;
+}
+
 main .submitbutton {
   background-color: grey;
   width: 100px;
@@ -41,7 +52,6 @@ main #contact-section ul {
 }
 
 main #about-section .description {
-  display: flex;
   border-style: solid;
   border-radius: 5px;
   padding: 20px;
