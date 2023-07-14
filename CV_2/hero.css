@@ -23,13 +23,13 @@
   color: #fff;
 }
 
-h3 {
+h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 40px;
   animation: slideIn 1.5s cubic-bezier(1, 0, 0, 0.99);
 }
 
-h2 {
+h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 40px;
   animation: slideIn 2.5s cubic-bezier(1, 0, 0, 0.99);

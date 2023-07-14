@@ -16,6 +16,13 @@
   border: 5px solid whitesmoke;
 }
 
+main .picture-wrapper {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  border-radius: 5px;
+}
+
 main .submitbutton {
   background-color: grey;
   width: 100px;
