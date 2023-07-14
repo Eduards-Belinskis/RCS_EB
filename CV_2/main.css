@@ -27,6 +27,12 @@ main .submitbutton {
   background-color: grey;
   width: 100px;
   border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+main .submitbutton:hover {
+  background-color: aliceblue;
 }
 main {
   padding: 20px 30px;
