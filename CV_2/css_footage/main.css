@@ -19,6 +19,7 @@
 main h2 {
   color: white;
   padding-left: 20px;
+  font-size: 30px;
 }
 
 main h3 {
@@ -62,12 +63,14 @@ main #contact-section ul {
   border-color: whitesmoke;
   border-radius: 5px;
   padding: 20px;
+  font-size: 20px;
 }
 
 main #about-section .description {
   border-style: solid;
   border-radius: 5px;
   padding: 20px;
+  font-size: 20px;
 }
 main #about-section h4 {
   display: flex;
@@ -81,6 +84,7 @@ main #skilset-section ul {
   border-style: solid;
   border-color: whitesmoke;
   border-radius: 5px;
+  font-size: 20px;
 }
 
 main #experience-section ul {
@@ -88,6 +92,7 @@ main #experience-section ul {
   border-color: whitesmoke;
   border-radius: 5px;
   padding: 20px;
+  font-size: 20px;
 }
 
 li.experience {
@@ -102,77 +107,77 @@ main #education-section ul {
   justify-content: center;
   border: solid whitesmoke;
   border-radius: 5px;
+  font-size: 20px;
 }
 main #education-section li {
   padding: 10px;
-}
-
-main .submitbutton {
-  display: flex;
-  justify-content: center;
-  background-color: grey;
-  width: 100px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.5s;
-  margin: 10px;
-  margin-left: 60px;
-}
-
-main #info-section form.form-wrapper > div input {
-  padding: 10px;
-  border: 0px;
-  display: flex;
-}
-
-main #info-section section.section main #info-section .submitbutton {
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-  border: 5px solid whitesmoke;
-  border-radius: 5px;
-  margin-bottom: 5px;
-}
-
-main #info-section > h4 {
-  color: whitesmoke;
-  padding-top: 10px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="date"],
-input[type="textarea"] {
-  height: 15px;
-  border: 1px solid whitesmoke;
-  border-radius: 5px;
-  padding: 5px;
-  background-color: grey;
-  transition: 0.5s;
-  cursor: pointer;
-  color: whitesmoke;
-  margin: 10px;
-}
-
-main .textarea {
-  display: flex;
-  justify-content: center;
-  background-color: rgb(241, 238, 238);
-  border-radius: 5px;
-  padding: 10px;
-  cursor: pointer;
-  background-color: grey;
-  color: whitesmoke;
-  font-size: 15px;
-  margin: 10px;
-}
-
-main #info-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-weight: 600;
 }
 
 label {
   padding: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+h4 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+input[type="submit"] {
+  background-color: grey;
+  color: #fff;
+  border: 1px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+input[type="submit"]:hover {
+  background-color: black;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #f70404;
 }
