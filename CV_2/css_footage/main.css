@@ -41,9 +41,6 @@ main #picture {
   margin-top: 50px;
 } */
 
-main .submitbutton:hover {
-  background-color: aliceblue;
-}
 main {
   padding: 20px 30px;
 }
@@ -111,23 +108,21 @@ main #education-section li {
 }
 
 main .submitbutton {
+  display: flex;
+  justify-content: center;
   background-color: grey;
   width: 100px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.5s;
-  padding: 5px;
+  margin: 10px;
+  margin-left: 60px;
 }
 
-main #info-section form.form-wrapper > div {
-  display: flex;
-  flex-direction: column;
-}
-
-main #info-section form.form-wrapper > div input,
-main #info-section form.form-wrapper > div textarea {
+main #info-section form.form-wrapper > div input {
   padding: 10px;
   border: 0px;
+  display: flex;
 }
 
 main #info-section section.section main #info-section .submitbutton {
@@ -145,12 +140,31 @@ main #info-section > h4 {
 }
 
 input[type="text"],
-input[type="email"] {
-  width: 100px;
+input[type="email"],
+input[type="date"],
+input[type="textarea"] {
   height: 15px;
   border: 1px solid whitesmoke;
   border-radius: 5px;
   padding: 5px;
+  background-color: grey;
+  transition: 0.5s;
+  cursor: pointer;
+  color: whitesmoke;
+  margin: 10px;
+}
+
+main .textarea {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(241, 238, 238);
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: grey;
+  color: whitesmoke;
+  font-size: 15px;
+  margin: 10px;
 }
 
 main #info-section {
