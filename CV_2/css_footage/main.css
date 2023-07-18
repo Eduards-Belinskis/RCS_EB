@@ -1,0 +1,164 @@
+#video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.container {
+  border: 5px solid whitesmoke;
+}
+
+main h2 {
+  color: white;
+  padding-left: 20px;
+}
+
+main h3 {
+  padding: 20px;
+  font-size: 20px;
+}
+
+main .picture-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+main #picture {
+  border-radius: 5px;
+}
+
+/* header div.picture-wrapper h2 {
+  margin-left: 8px;
+  color: whitesmoke;
+  margin-top: 50px;
+} */
+
+main .submitbutton:hover {
+  background-color: aliceblue;
+}
+main {
+  padding: 20px 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.row {
+  display: flex gap = 10px;
+  main #contact-section div {
+    position: relative;
+  }
+}
+main #contact-section ul {
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+main #about-section .description {
+  border-style: solid;
+  border-radius: 5px;
+  padding: 20px;
+}
+main #about-section h4 {
+  display: flex;
+  justify-content: center;
+}
+
+main #skilset-section ul {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-radius: 5px;
+}
+
+main #experience-section ul {
+  border-style: solid;
+  border-color: whitesmoke;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+li.experience {
+  display: flex;
+  flex-direction: column;
+}
+
+main #education-section ul {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  border: solid whitesmoke;
+  border-radius: 5px;
+}
+main #education-section li {
+  padding: 10px;
+}
+
+main .submitbutton {
+  background-color: grey;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  padding: 5px;
+}
+
+main #info-section form.form-wrapper > div {
+  display: flex;
+  flex-direction: column;
+}
+
+main #info-section form.form-wrapper > div input,
+main #info-section form.form-wrapper > div textarea {
+  padding: 10px;
+  border: 0px;
+}
+
+main #info-section section.section main #info-section .submitbutton {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  border: 5px solid whitesmoke;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+main #info-section > h4 {
+  color: whitesmoke;
+  padding-top: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100px;
+  height: 15px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+main #info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  padding: 10px;
+}

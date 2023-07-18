@@ -1,0 +1,26 @@
+@media (max-width: 1200px) {
+  #hero {
+    display: flex;
+  }
+}
+
+.herodescription {
+  width: 70%;
+}
+
+.nav {
+  display: flex;
+  align-items: normal;
+}
+
+:root {
+  --background-color: #1a1a1a; /* Dark background color */
+  --text-color: #f0f0f0; /* Light text color */
+  /* Add other variables for different element colors if needed */
+}
+
+.dark-mode {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  /* Add other styles for different elements in dark mode */
+}
