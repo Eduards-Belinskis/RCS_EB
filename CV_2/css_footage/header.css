@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header img#picture {
+  width: 150px;
+  height: 230px;
+  border-radius: 10px;
+}
+header div.picture-wrapper {
+  display: flex;
+  align-items: self-end;
+  padding: 10px 10px 0px 50px;
+}
+
+header div.pictrue-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+header nav.nav ul {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+header nav.nav ul li {
+  margin: 0 30px;
+}
+
+header h1 {
+  display: flex;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
