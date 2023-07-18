@@ -46,9 +46,9 @@
       <div class="picture-wrapper">
         <img
           id="picture"
-          src="profile_picture.png"
+          src="profile.png"
           alt="Profile picture"
-          width="150"
+          width="200"
         />
         <h2>Eduards Belinskis</h2>
       </div>
@@ -164,26 +164,23 @@
         </ul>
       </section>
 
-      <section id="info-section" class="section">
-        <h3 id="section-title">Contact me:</h3>
         <form class="form-wrapper">
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" name="name" />
-          </div>
-          <div>
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" />
-          </div>
-          <div>
-            <label for="date">Date:</label>
-            <input type="date" id="date">
-          </div>
-          <div>
-            <label for="additional-info">Question:</label>
-            <textarea class="textarea" type="textarea" name="additional-info" cols="20" rows="10"></textarea>
-          </div>
-          <button type="submit" class="submitbutton">Send</button>
+          <title>Contact Us - Dark Theme</title>
+    <div class="container">
+        <h4>Contact Us</h4>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
         </form>
       </section>
     </main>
