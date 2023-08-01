@@ -15,11 +15,11 @@
 h1 {
   font-size: 50px;
   color: #fff;
-  max-resolution: 5rem;
+  margin-bottom: 5rem;
 }
 
 h2 {
-  font-size: 4, 2rem;
+  font-size: 4.2rem;
   margin-bottom: 4rem;
 }
 
@@ -69,9 +69,9 @@ h2 {
 }
 .button:hover {
   cursor: pointer;
-  box-shadow: 0 0, 4rem 1, 4rem 0 rgba(8, 114, 244, 0, 6);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
   transition: transform 150ms;
-  transform: scale(0.5);
+  transform: scale(1.03);
 }
 
 .button[disabled]:hover {
@@ -85,7 +85,7 @@ h2 {
 }
 
 #highscore-button:hover {
-  box-shadow: 0 0, 4rem 1, 4rem 0 rgba(255, 255, 0, 0, 5);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
 }
 
 .fa-crown {

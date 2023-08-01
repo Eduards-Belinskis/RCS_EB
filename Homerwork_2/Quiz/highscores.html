@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Game</title>
+    <title>Highscores</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="highscores.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
@@ -14,13 +15,12 @@
   </head>
   <body>
     <div class="container">
-      <div id="home" class="flex-column flex-center">
-        <h1>Are you ready?</h1>
-        <a href="./game.html" class="button">Play</a>
-        <a href="./highscores.html" id="highscore-button" class="button"
-          >Highscores<i class="fas fa-crown"></i
-        ></a>
+      <div id="highScores" class="flex-center flex-column">
+        <h1 id="finalScore">Leaderboard</h1>
+        <ul id="highScoreList"></ul>
+        <a href="./" class="button">Go Home</a>
       </div>
     </div>
+    <script src="highscores.js"></script>
   </body>
 </html>

@@ -1,7 +1,7 @@
 const username = document.querySelector("#username");
 const saveScoreButton = document.querySelector("#saveScoreButton");
 const finalScore = document.querySelector("#finalScore");
-const mostRecentScore = document.querySelector("#mostRecentScore");
+const mostRecentScore = localStorage.getItem("mostRecentScore");
 
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 const MAX_HIGH_SCORES = 5;
@@ -27,5 +27,5 @@ saveHighScore = (e) => {
   highScores.splice(5);
 
   localStorage.setItem("highscore", JSON.stringify(highScores));
-  window.location.assign("/");
+  window.location.assign("./");
 };

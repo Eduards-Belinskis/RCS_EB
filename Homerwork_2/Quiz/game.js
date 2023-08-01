@@ -2,7 +2,7 @@ const question = document.querySelector("#question");
 const choices = Array.from(document.querySelectorAll(".choice-text"));
 const progresText = document.querySelector("#progresText");
 const scoreText = document.querySelector("#score");
-const progresBarFull = document.querySelector("#progresbarFull");
+const progresBarFull = document.querySelector("#progresBarFull");
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -58,7 +58,7 @@ startGame = () => {
 getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
-    return window.location.assign("/end.html");
+    return window.location.assign("./end.html");
   }
 
   questionCounter++;
